@@ -412,7 +412,7 @@
             {
               "label": "Clinical Assessment for Signs and Symptoms of HIV",
               "type": "obs",
-              "id": "clinicialAssessment",
+              "id": "clinicalAssessment",
               "questionOptions": {
                 "rendering": "multiCheckbox",
                 "concept": "f0826902-a6d1-4abb-9783-1aeec0dea9d3",
@@ -487,7 +487,7 @@
               },
               "validators": [],
               "hide": {
-                "hideWhenExpression": "isEmpty(clinicialAssessment) || clinicialAssessment != 'dcd68a88-30ab-102d-86b0-7a5022ba4115'"
+                "hideWhenExpression": "isEmpty(clinicalAssessment) || clinicalAssessment != 'dcd68a88-30ab-102d-86b0-7a5022ba4115'"
               }
             }
           ]
@@ -605,7 +605,6 @@
             {
               "label": "Head Circumference (cm)",
               "type": "obs",
-              "required": "true",
               "id": "headCircumference",
               "questionOptions": {
                 "rendering": "number",
